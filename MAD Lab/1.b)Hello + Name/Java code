@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
  Add_button.setOnClickListener(new View.OnClickListener(){
  public void onClick(View view){
  String Name = name.getText().toString();
-Mobile Application Development Lab 19WH1A1213
-Department of Information Technology Page | 3
  tv.setText("Hello "+Name);
  }
  });
